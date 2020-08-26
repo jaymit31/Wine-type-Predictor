@@ -1,0 +1,10 @@
+This code predicts the type of wine from two types red and white based on folloing factors:
+
+            1. Fixed Acidity
+            2. Volatie Acidity
+            3. Chlorides
+            4. Free Sulpher Dioxide
+            5. Sulphates
+            6. Alcohol
+            
+First We will read the winequality-white-kaggle.csv and winequality-red-kaggle.csv file and split the data into train and test set by 90:10 ratio. And after that we have trained the data using Random Forest Classifier method.And the achieved test accuracy is of 99.23%. 
